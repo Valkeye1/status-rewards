@@ -231,4 +231,4 @@ async def tip(ctx, mention: Option(
     using_code[str(mention.id)]['balance'] += int(amount)
     return await ctx.respond(f'Successfully sent a ``{amount}`` :gem: tip to {mention.mention}!', ephemeral=False)
   
-bot.run('MTAzMjA0MTQ4NDA0NTc4NzE0Ng.GFXDzD.M0WH2F8yLgN_xsgORSapSkh1eqYnQNmDmzYoEY')
+bot.run('token_here')
